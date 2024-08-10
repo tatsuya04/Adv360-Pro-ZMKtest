@@ -100,11 +100,11 @@
 
         layer_Layer__6 {
             bindings = <
- &trans   &kp EXCLAMATION           &kp AT_SIGN        &kp HASH             &kp DOLLAR        &kp PERCENT                 &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
- &trans  &kp SINGLE_QUOTE      &kp LEFT_BRACKET       &kp MINUS      &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES                 &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
- &trans         &kp COLON  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS          &kp EQUAL                 &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp SEMICOLON  &kp COLON  &trans
- &trans        &kp PERIOD        &kp LEFT_BRACE     &kp AT_SIGN        &kp RIGHT_BRACE            &kp TAB                                 &trans                  &trans                     &trans    &trans     &trans         &trans     &trans  &trans
- &trans         &kp GRAVE         &kp LESS_THAN          &trans       &kp GREATER_THAN                               &macro_kana  &trans  &trans                  &trans  &trans  &trans               &trans     &trans         &trans     &trans  &trans
+ &trans   &kp EXCLAMATION           &kp AT_SIGN        &kp HASH             &kp DOLLAR        &kp PERCENT                  &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
+ &trans  &kp SINGLE_QUOTE      &kp LEFT_BRACKET       &kp MINUS      &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES                  &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
+ &trans         &kp COLON  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS          &kp EQUAL                  &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp SEMICOLON  &kp COLON  &trans
+ &trans        &kp PERIOD        &kp LEFT_BRACE     &kp AT_SIGN        &kp RIGHT_BRACE            &kp TAB                                  &trans                  &trans                     &trans    &trans     &trans         &trans     &trans  &trans
+ &trans         &kp GRAVE         &kp LESS_THAN          &trans       &kp GREATER_THAN                               &kp LS(CAPS)  &trans  &trans                  &trans  &trans  &trans               &trans     &trans         &trans     &trans  &trans
             >;
         };
 
