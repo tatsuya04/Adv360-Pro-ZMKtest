@@ -14,6 +14,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
@@ -40,9 +41,9 @@
 
         default_layer {
             bindings = <
-        &kp EQUAL     &kp N1    &kp N2  &kp N3        &kp N4  &kp N5            &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
+          &kp ESC     &kp N1    &kp N2  &kp N3        &kp N4  &kp N5            &tog 1                                                                &mo 3  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
           &kp TAB      &kp Q     &kp W   &kp E         &kp R   &kp T             &none                                                               &kp F6   &kp Y   &kp U      &kp I     &kp O  &kp SEMICOLON   &kp BSLH
-          &kp ESC      &kp A     &kp S   &kp D         &kp F   &kp G            &kp F7  &kp LCTRL  &kp LALT                  &kp LGUI  &kp RCTRL  &kp RCTRL   &kp H   &kp J      &kp K     &kp L          &kp P    &kp SQT
+              &kt      &kp A     &kp S   &kp D         &kp F   &kp G            &kp F7  &kp LCTRL  &kp LALT                  &kp LGUI  &kp RCTRL  &kp RCTRL   &kp H   &kp J      &kp K     &kp L          &kp P    &kp SQT
         &kp LSHFT      &kp Z     &kp X   &kp C         &kp V   &kp B                               &kp HOME                    &kp UP                         &kp N   &kp M  &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
  &kp LEFT_CONTROL  &kp GRAVE  &kp CAPS   &mo 2  &kp LEFT_ALT                     &mo 4  &kp SPACE   &kp TAB                  &kp DOWN      &mo 5      &mo 6           &mo 2      &mo 2  &kp LBKT       &kp RBKT      &mo 2
             >;
@@ -100,11 +101,11 @@
 
         layer_Layer__6 {
             bindings = <
- &trans   &kp EXCLAMATION           &kp AT_SIGN        &kp HASH             &kp DOLLAR        &kp PERCENT                  &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
- &trans  &kp SINGLE_QUOTE      &kp LEFT_BRACKET       &kp MINUS      &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES                  &trans                                                  &trans     &trans    &trans     &trans         &trans     &trans  &trans
- &trans         &kp COLON  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS          &kp EQUAL                  &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp SEMICOLON  &kp COLON  &trans
- &trans        &kp PERIOD        &kp LEFT_BRACE     &kp AT_SIGN        &kp RIGHT_BRACE            &kp TAB                                  &trans                  &trans                     &trans    &trans     &trans         &trans     &trans  &trans
- &trans         &kp GRAVE         &kp LESS_THAN          &trans       &kp GREATER_THAN                               &kp LS(CAPS)  &trans  &trans                  &trans  &trans  &trans               &trans     &trans         &trans     &trans  &trans
+ &trans   &kp EXCLAMATION           &kp AT_SIGN        &kp HASH             &kp DOLLAR        &kp PERCENT            &trans                                                  &trans     &trans    &trans     &trans     &trans     &trans  &trans
+ &trans  &kp SINGLE_QUOTE      &kp LEFT_BRACKET       &kp MINUS      &kp RIGHT_BRACKET  &kp DOUBLE_QUOTES            &trans                                                  &trans     &trans    &trans     &trans     &trans     &trans  &trans
+ &trans      &kp LS(CAPS)  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp RIGHT_PARENTHESIS          &kp EQUAL            &trans  &trans  &trans                  &trans  &trans  &trans  &kp CARET  &kp AMPS  &kp ASTRK  &kp COLON  &kp COLON  &trans
+ &trans        &kp PERIOD        &kp LEFT_BRACE     &kp AT_SIGN        &kp RIGHT_BRACE            &kp TAB                            &trans                  &trans                     &trans    &trans     &trans     &trans     &trans  &trans
+ &trans         &kp GRAVE         &kp LESS_THAN          &trans       &kp GREATER_THAN                               &trans  &trans  &trans                  &trans  &trans  &trans               &trans     &trans     &trans     &trans  &trans
             >;
         };
 
